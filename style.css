@@ -1,0 +1,532 @@
+body {
+    background: #cff7cf;
+}
+
+.wrapper header.header {
+    
+    background-size: 100% auto;
+    height: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    position: relative;
+}
+
+.wrapper header.header .blue {
+    bottom: -65px;
+    height: 525px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper header.header .container {
+    position: relative
+}
+
+.wrapper header.header .white img,
+.wrapper header.header .blue img {
+    width: 100%;
+}
+
+.wrapper header.header .white {
+    bottom: -105px;
+    height: 525px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper header.header .logo h2 {
+    margin: 0;
+    padding: 0
+}
+
+.wrapper header.header .logo h2 a {
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+    font-weight: 450;
+    text-decoration: none;
+    color: #080808;
+}
+
+.wrapper header.header ul.nav.navbar-nav {
+    float: right;
+}
+
+.wrapper header.header ul.nav.navbar-nav li :hover {
+    background: transparent;
+}
+
+.wrapper header.header .header-text {
+    margin: 0 auto;
+    padding-top: 130px;
+    text-align: center;
+    width: 770px;
+}
+
+.wrapper header.header .header-text h1 {
+    color: #455a64 none repeat scroll 0 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.wrapper header.header .header-text h1::before {
+    background: rgb(52, 67, 202) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 130px;
+    position: absolute;
+    width: 500px;
+}
+
+.wrapper header.header .header-text p {
+    color: rgba(5, 14, 34, 0.808);
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.wrapper header.header .another-text h3 {
+    color: #36363a;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.wrapper header.header .another-text p {
+    color: #78909c;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 15px;
+}
+
+.wrapper section.development {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.wrapper section.development .blue {
+    bottom: 0px;
+    height: 225px;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper section.development .white {
+    bottom: -22px;
+    height: 225px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper section.development .white img,
+.wrapper section.development .blue img {
+    width: 100%;
+}
+
+.wrapper section.development .design-development {
+    text-align: center;
+    padding-top: 30px
+}
+
+.wrapper section.development .design-development i {
+    font-size: 41px;
+    background: #f48fb1;
+    color: #fff;
+    padding: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.wrapper section.development .design-development i::after {
+    border: 1px solid #f48fb1;
+    content: "";
+    height: 120px;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.wrapper section.development .design-development i::before {
+    border: 1px solid #f48fb1;
+    content: "";
+    height: 140px;
+    left: -20px;
+    position: absolute;
+    top: -20px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.wrapper section.development .design-development.one i {
+    background: #0ceac5;
+}
+
+.wrapper section.development .design-development.one i::after,
+.wrapper section.development .design-development.one i::before {
+    border: 1px solid #0ceac5;
+}
+
+.wrapper section.development .design-development.three i {
+    background: #82b1ff;
+}
+
+.wrapper section.development .design-development.three i::after,
+.wrapper section.development .design-development.three i::before {
+    border: 1px solid #82b1ff;
+}
+
+.wrapper section.development .design-development h2 {
+    position: relative;
+    color: #455a64;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 55px auto 25px;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: -o-fit-content;
+}
+
+.wrapper section.development .design-development h2::before {
+    border: 1px solid #455a64;
+    bottom: -15px;
+    content: "";
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper section.development .design-development p {
+    color: #455a64;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.wrapper section.works {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.wrapper section.works .work-images {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.wrapper section.works .work-images img {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper section.works .work-text-full {
+    display: table;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.wrapper section.works .work-text {
+    display: table-cell;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.wrapper section.works .work-text h2 {
+    color: #455a64;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.wrapper section.works .work-text h2::before {
+    border: 2px solid #455a64;
+    bottom: 5px;
+    content: "";
+    position: absolute;
+    width: 75px;
+}
+
+.wrapper section.works .work-text p {
+    color: #899ea9;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.wrapper section.works .work-images .overlay-text {
+    background: rgba(24, 234, 199, 0.95) none repeat scroll 0 0;
+    height: 100%;
+    padding-top: 155px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.wrapper section.works .work-images .overlay-text i {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 80px;
+    padding: 2px;
+    position: relative;
+}
+
+.wrapper section.works .work-images .overlay-text i::after {
+    border: 1px solid #fff;
+    content: "";
+    height: 104px;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 104px;
+    border-radius: 50%;
+}
+
+.wrapper section.works .work-images .overlay-text i::before {
+    border: 1px solid #fff;
+    content: "";
+    height: 124px;
+    left: -20px;
+    position: absolute;
+    top: -20px;
+    width: 124px;
+    border-radius: 50%;
+}
+
+.wrapper section.portfolia {
+    margin-top: 50px;
+}
+
+.wrapper section.portfolia .port-text h2 {
+    color: #455a64;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    position: relative
+}
+
+.wrapper section.portfolia .port-text h2::before {
+    border: 1px solid #455a64;
+    bottom: -20px;
+    content: "";
+    position: absolute;
+    width: 75px;
+}
+
+.wrapper section.portfolia .port-text p {
+    color: #070707;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.wrapper section.portfolia .portfolio-part {
+    border-radius: 5px;
+    height: 330px;
+    margin: 55px 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper section.portfolia .portfolio-part img {
+    width: 100%;
+}
+
+.wrapper section.portfolia .portfolio-part .overlay-slide {
+    position: absolute;
+    background: rgba(24, 234, 199, 0.95) none repeat scroll 0 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 20px 40px;
+    opacity: 0;
+}
+
+.wrapper section.portfolia .portfolio-part:hover>.overlay-slide {
+    opacity: 1;
+}
+
+.wrapper section.portfolia .portfolio-part .overlay-slide h2 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.wrapper section.portfolia .portfolio-part .overlay-slide h2::before {
+    border: 1px solid #fff;
+    bottom: -15px;
+    content: "";
+    position: absolute;
+    width: 335px;
+}
+
+.wrapper section.portfolia .portfolio-part .overlay-slide p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+div.wrapper section.portfolia div.penination p {
+    background: #012704fd none repeat scroll 0 0;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 55px auto;
+    padding: 12px 40px;
+    position: relative;
+    text-align: center;
+    width: -moz-fit-content;
+    border-radius: 30px/30px;
+}
+div.wrapper section.portfolia div.penination a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper section.plastic-recycle {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.wrapper section.plastic-recycle .team-text {
+    margin-bottom: 75px;
+}
+
+.wrapper section.plastic-recycle .team-text h2 {
+    color: #455a64;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 auto;
+    position: relative;
+    width: -moz-fit-content;
+    padding-bottom: 25px;
+}
+
+.wrapper section.plastic-recycle .team-text h2::before {
+    background: #455a64 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    width: 75px;
+}
+
+.wrapper section.plastic-recycle .team-text p {
+    color: #014242;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: -moz-fit-content;
+}
+
+.wrapper section.plastic-recycle .my-claint {
+    height: 350px;
+    position: relative;
+}
+
+.wrapper section.contact .white {
+    bottom: 88px;
+    height: 335px;
+    position: absolute;
+    width: 100%;
+}
+
+.wrapper section.contact .contact-text {
+    margin-top: 50px;
+}
+
+.wrapper section.contact .contact-text h2 {
+    color: #455a64;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.wrapper section.contact .contact-text h2::before {
+    background: #455a64 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    width: 75px;
+}
+
+.wrapper section.contact .contact-text p {
+    color: #111c22;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.wrapper footer.footer {
+    background-image: url("img/footer-bg.jpg");
+    background-size: 100% 100%;
+    height: 400px;
+    margin-top: 100px;
+    padding-top: 110px;
+}
+
+.wrapper footer.footer .footer-icon i {
+    color: #fff;
+    font-size: 25px;
+    padding: 0 44px 0 0;
+}
+
+.wrapper footer.footer .footer-text .footer-text-single h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.wrapper footer.footer .footer-text .footer-text-single p a {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f4f6f7;
+    text-decoration: none;
+}
