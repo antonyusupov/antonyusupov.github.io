@@ -61,7 +61,7 @@ body {
     margin: 0 auto;
     padding-top: 130px;
     text-align: center;
-    width: 770px;
+    width: auto;
 }
 
 .wrapper header.header .header-text h1 {
@@ -81,7 +81,7 @@ body {
     height: 3px;
     left: 130px;
     position: absolute;
-    width: 500px;
+    width: auto;
 }
 
 .wrapper header.header .header-text p {
